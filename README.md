@@ -31,6 +31,8 @@ Run the following command to clone the project to your local machine:
 bash
 
 ```git clone <repository-url>```
+
+
 2. Configure Environment Variables
 Navigate to the project directory:
 bash
@@ -41,15 +43,18 @@ Paste your Google Gemini API key in the .env file, like this:
 makefile
 
 ```GOOGLE_GEMINI_API_KEY=your_api_key_here```
+
 3. Run the Application
 Open your terminal in the project directory.
 Run the following command to start the application using Streamlit:
 bash
 Copy code
 ```streamlit run app.py```
-4. Upload Multiple PDFs
+
+5. Upload Multiple PDFs
 Once the application starts, upload multiple PDF files using the provided interface.
 Click on the Submit button after uploading the files.
-5. Ask Questions
+
+7. Ask Questions
 After submitting the PDFs, you can ask questions based on the content of the uploaded documents, and the system will provide answers accordingly.
 
