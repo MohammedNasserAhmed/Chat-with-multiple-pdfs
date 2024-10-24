@@ -20,3 +20,36 @@ Multiple PDF Upload: Users can securely upload multiple PDF files in a single se
 Content Extraction: The system extracts text from the PDFs, including handling scanned documents using OCR if necessary.
 Query Processing: Users can submit questions based on the content of the uploaded PDFs, with the system analyzing the extracted data to provide relevant responses.
 User-Friendly Interface: The interface allows easy navigation between uploaded files and question submission, ensuring a seamless user experience.
+
+
+Project Setup and Usage Instructions
+Follow these steps to get the project up and running on your local machine:
+
+1. Clone the Repository
+Open your terminal.
+Run the following command to clone the project to your local machine:
+bash
+
+```git clone <repository-url>```
+2. Configure Environment Variables
+Navigate to the project directory:
+bash
+
+```cd <project-directory>```
+Open the .env file located in the project folder.
+Paste your Google Gemini API key in the .env file, like this:
+makefile
+
+```GOOGLE_GEMINI_API_KEY=your_api_key_here```
+3. Run the Application
+Open your terminal in the project directory.
+Run the following command to start the application using Streamlit:
+bash
+Copy code
+```streamlit run app.py```
+4. Upload Multiple PDFs
+Once the application starts, upload multiple PDF files using the provided interface.
+Click on the Submit button after uploading the files.
+5. Ask Questions
+After submitting the PDFs, you can ask questions based on the content of the uploaded documents, and the system will provide answers accordingly.
+
