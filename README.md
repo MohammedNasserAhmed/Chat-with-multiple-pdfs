@@ -22,8 +22,8 @@ Query Processing: Users can submit questions based on the content of the uploade
 User-Friendly Interface: The interface allows easy navigation between uploaded files and question submission, ensuring a seamless user experience.
 
 
-Project Setup and Usage Instructions
-Follow these steps to get the project up and running on your local machine:
+**Project Setup and Usage Instructions**
+(Follow these steps to get the project up and running on your local machine)
 
 1. Clone the Repository
 Open your terminal.
